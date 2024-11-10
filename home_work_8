@@ -1,0 +1,10 @@
+import unittest
+
+def fun(a,b):
+    return a*b
+
+class Testfun(unittest.TestCase):
+    def test_positive_numbers(self):
+        self.assertEqual(fun(1,2), 2)
+if __name__=="__main__":
+    unittest.main()
