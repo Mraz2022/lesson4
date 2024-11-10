@@ -1,0 +1,50 @@
+# list = [1,2,3]
+
+# it = iter(list)
+# print(next(it))
+
+# class chisl:
+#     def __init__(self,value):
+#         self.max = value
+#         self.cnt = -2
+#     def __iter__(self):
+#         return self
+#     def __next__(self):
+#         self.cnt += 2 
+#         if (self.cnt > self.max):
+#             raise StopIteration
+#         else:
+#             return self.cnt
+# value = chisl(10)
+# for i in value:
+#     print(i)
+
+# def fun():
+#     for i in range n:
+#         n = int(input())
+#     yield n
+# n = fun()
+# for num in n:
+#     print(num*num)
+
+# def calculate(expression):
+#     def chisl(a,b,c):
+#         if b == 0:
+#             return("Ошибка: деление на ноль")
+#         return expression(a,b,c)
+#     return chisl
+#     return eval(expression)
+# @calculate
+# def primer(a, b, c):
+#     if(c == "-"):
+#         return a-b
+#     if(c == "+"):
+#         return a+b
+#     if(c=="/"):
+#         return a/b
+#     if(c=="*"):
+#         return a*b
+# a = int(input("pervoe = "))
+# b = int(input("vtoroe = "))
+# c = str(input("deystvie = "))
+# print(primer(a,b,c))
