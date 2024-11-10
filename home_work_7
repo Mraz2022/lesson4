@@ -1,0 +1,21 @@
+def calculate(expression):
+    def chisl(a,b,c):
+        if b == 0:
+            return("Ошибка: деление на ноль")
+        return expression(a,b,c)
+    return chisl
+    return eval(expression)
+@calculate
+def primer(a, b, c):
+    if(c == "-"):
+        return a-b
+    if(c == "+"):
+        return a+b
+    if(c=="/"):
+        return a/b
+    if(c=="*"):
+        return a*b
+a = int(input("pervoe = "))
+b = int(input("vtoroe = "))
+c = str(input("deystvie = "))
+print(primer(a,b,c))
